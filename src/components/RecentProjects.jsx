@@ -7,59 +7,60 @@ import Button from "./shared/Button";
 const projects = [
     {
         id: 1,
-        title: "Flatirons",
-        link:"https://flatirons.com/",
+        title: "Marugame",
+        link:"https://jp.marugame.com/en/",
         image: "/recent_project1.png",
         category: "React JS",
         technologies: [
             "React",
-            "Redux",
-            "Express",
-            "Node.js"
+            "Next",
+            "AWS",
+            "Swiper"
         ],
     },
     {
         id: 2,
-        title: "Algo Works",
-        link: "https://www.algoworks.com/",
+        title: "Upqode",
+        link: "https://upqode.com/",
         image: "/recent_project2.png",
         category: "React JS",
         technologies: [
-            "Vue js",
+            "React",
             "Jquery",
             "Bootstrap"
         ],
     },
     {
         id: 3,
-        title: "Set Point",
-        link: "https://www.setpoint.io/",
+        title: "Promatics",
+        link: "https://www.promaticsindia.com/",
         image: "/recent_project3.png",
         category: "React JS",
         technologies: [
            "React",
-           "AWS",
-           "Gatsby",
-           "Swiper"
+           "Next js",
+           "Gsap",
+           "Swiper",
+           "Bootstrap"
         ],
     },
     {
         id: 4,
-        title: "Baires Dev",
-        link: "https://www.bairesdev.com/",
+        title: "Grey Sky Media",
+        link: "https://greyskymedia.com/",
         image: "/recent_project4.png",
         category: "React JS",
         technologies: [
-            "React",
+            "Nuxt.js",
+            "Vue js",
             "Tailwind CSS",
-            "Drift",
-            "Angular js"
+            "Node js",
         ],
     },
     {
         id: 5,
-        title: "Hatch Works",
-        link:"https://hatchworks.com/",
+        title: "Diffco",
+        link:"https://diffco.us/",
         image: "/recent_project5.png",
         category: "Wordpress",
         technologies: [
@@ -71,8 +72,8 @@ const projects = [
     },
     {
         id: 6,
-        title: "ScaleUp Consulting",
-        link:"https://www.scaleupconsulting.com.au/",
+        title: "Ein Des Ein App Development",
+        link:"https://ein-des-ein.com/",
         image: "/recent_project6.png",
         category: "Wordpress",
         technologies: [
