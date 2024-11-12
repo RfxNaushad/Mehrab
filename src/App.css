@@ -1,0 +1,15 @@
+.image-container {
+    position: relative; /* Ensure the container is positioned relative for the absolute positioning of ::after */
+  }
+  
+  .image-container::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 100%;
+    height: 22%;
+    background: linear-gradient(to bottom, transparent, black);
+    filter: blur(8px);
+}
+

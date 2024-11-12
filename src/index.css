@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+.picker {
+    display: flex;
+    align-items: stretch;
+    min-width: 100%;
+    /* padding-top: 80px; */
+    /* width: ; */
+    /* height: 500px; */
+}
+.cell {
+    min-width: 25%;
+    /* min-height: 500px; */
+    margin-right: 10px;
+}
