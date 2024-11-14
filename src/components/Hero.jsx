@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
 import "../App.css";
 import Button from './shared/Button';
+import { FaUpwork } from 'react-icons/fa6';
 
 gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
@@ -60,7 +61,9 @@ const Hero = () => {
                         <a href="/Md. Masum Billah.pdf" download>
                         <Button text={'Download CV'} bg={'bg-[#00e676]'} icon={<FaDownload />} />
                         </a>
-                        <Button  bg={'bg-[#00e676]'} size='p-3' text={<FaLinkedin className="w-4 h-4"/>} />
+                        <a href="https://www.upwork.com/freelancers/~01a797d06a0b82196d" target='_blank'>
+                        <Button  bg={'bg-[#00e676]'} size='p-3' text={<FaUpwork className='w-4 h-4' />} />
+                        </a>
                         <Button  bg={'bg-[#00e676]'} size='p-3' text={<FaGithub className="w-4 h-4"/>} />
                     </div>
                 </div>

@@ -1,19 +1,12 @@
-import { useState } from "react";
-import About from "../components/About";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import ProjectShowcase from "../components/ProjectShowcase";
-import RecentProjects from "../components/RecentProjects";
-import Testimonial from "../components/Testimonial";
-import WhatIDo from "../components/WhatIDo";
-import WorkExperience from "../components/WorkExperience";
-import TextMarquee from "../components/TextMarquee";
+import {  useState } from "react";
 import Button from "../components/shared/Button";
+import { Link } from "react-router-dom";
 function MainPage() {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
-        setIsOpen(!isOpen);
+        setIsOpen(!isOpen);       
     };
+
     return (
         <div className="main-section ">
             {/* Navbar */}
@@ -24,9 +17,12 @@ function MainPage() {
                 <div className="font-bold text-xl">Mehrab Islam</div>
 
                 <div className="hidden md:flex space-x-4 justify-center items-center">
-                    <a href="#work" className="hover:text-gray-400 text-sm">
+                <Link to={'/'} className="hover:text-gray-400 text-sm">
+                        Home
+                    </Link>
+                    <Link to={'/projects'} className="hover:text-gray-400 text-sm">
                         Work
-                    </a>
+                    </Link>
                     <a href="#about" className="hover:text-gray-400 text-sm">
                         About
                     </a>
@@ -55,18 +51,22 @@ function MainPage() {
 
                 {/* Mobile Menu */}
                 {isOpen && (
-                    <div className="absolute top-16 left-0 w-full bg-black text-white md:hidden">
-                        <div className="flex flex-col space-y-2 p-4">
-                            <a href="#work" className="hover:text-gray-400">
+                    <div className="absolute top-16 left-0 w-full  z-10 bg-black text-white md:hidden">
+                        <div className="flex  items-center gap-5 py-5 px-4">
+                        <Link to={'/'} className="hover:text-gray-400">
+                                Home
+                            </Link>
+                            <Link to={'/projects'} className="hover:text-gray-400">
                                 Work
-                            </a>
+                            </Link>
+                            
                             <a href="#about" className="hover:text-gray-400">
                                 About
                             </a>
                             <a
                                 href="#contact"
                                 className="bg-transparent border border-white 
-                            rounded-md px-4 py-2 hover:bg-white hover:text-black transition duration-300"
+                            rounded-md px-4 py-2 hover:bg-white w-fit hover:text-black transition duration-300"
                             >
                                 Contact
                             </a>
@@ -74,18 +74,6 @@ function MainPage() {
                     </div>
                 )}
             </nav>
-
-            <Hero />
-            <TextMarquee />
-            <About />
-            {/* <WhatWeDo /> */}
-            <WhatIDo />
-            <RecentProjects />
-            <WorkExperience />
-            <Testimonial />
-            <ProjectShowcase />
-            <Footer />
-
         </div>
     );
 }
