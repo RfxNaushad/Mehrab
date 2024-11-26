@@ -64,7 +64,10 @@ const Hero = () => {
                         <a href="https://www.upwork.com/freelancers/~01a797d06a0b82196d" target='_blank'>
                         <Button  bg={'bg-[#00e676]'} size='p-3' text={<FaUpwork className='w-4 h-4' />} />
                         </a>
+                        <a href="https://github.com/mehrab-222" target='_blank'>
+                        
                         <Button  bg={'bg-[#00e676]'} size='p-3' text={<FaGithub className="w-4 h-4"/>} />
+                        </a>
                     </div>
                 </div>
 

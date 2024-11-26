@@ -7,305 +7,107 @@ import Button from "./shared/Button";
 const projects = [
   {
     id: 1,
-    title: "Lugz",
-    link:"https://lugz.com/",
+    title: "People desk",
+    link: "https://peopledesk.io/",
     image: "/recent_project1.png",
     category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "PHP",
-      "MySQL",
-      "jQuery",
-      "Yoast SEO",
-    ],
+    technologies: ["Wordpress", "Elementor", "PHP", "MySQL", "jQuery", "GSAP"],
   },
   {
     id: 2,
-    title: "Playstation",
-    link:"https://blog.playstation.com/",
+    title: "Aerodrop",
+    link: "https://aerodrop.ai/",
     image: "/recent_project2.png",
     category: "Wordpress",
-    technologies: [
-      "Elementor Pro",
-      "Wordpress",
-      "Nginx",
-      "PHP",
-    ],
+    technologies: ["Wordpress", "Elementor", "MySQL", "PHP", "jQuery"],
   },
   {
     id: 3,
-    title: "Pinchofyum",
-    link:"https://pinchofyum.com/",
+    title: "Creatibuzz",
+    link: "https://creatibuzz.com/",
     image: "/recent_project3.png",
     category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "MySQL",
-      "PHP",
-      "Yoast SEO",
-    ],
+    technologies: ["Wordpress", "Elementor", "PHP", "MySQL", "jQuery", "GSAP"],
   },
   {
     id: 4,
-    title: "Walnut",
-    link:"https://www.walnut.io/",
+    title: "iBOS",
+    link: "https://ibos.io/",
     image: "/recent_project4.png",
     category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "PHP",
-      "jQuery",
-      "Yoast SEO",
-      "MySQL"
-    ],
+    technologies: ["Wordpress", "Elementor", "PHP", "MySQL", "jQuery"],
   },
   {
     id: 5,
-    title: "Academyselfdefense",
-    link:"https://academyselfdefense.com/",
+    title: "Managerium",
+    link: "https://managerium.io/",
     image: "/recent_project5.png",
     category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "PHP",
-      "jQuery",
-      "Yoast SEO",
-      "MySQL"
-    ],
+    technologies: ["Wordpress", "PHP", "jQuery", "MySQL"],
   },
   {
-    id: 6,
-    title: "Eden-grow",
-    link:"hhttps://www.eden-grow.de/",
-    image: "/recent_project6.png",
-    category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "jQuery",
-      "Yoast SEO",
-      "Nginx"
-    ],
+    id:6,
+    title: "CargoCore",
+    link: "https://cargcore.netlify.app/",
+    image: "/recent_project11.png",
+    category: "React JS",
+    technologies: ["React", "Redux", "Rechart", "Tailwind CSS", "GSAP"],
   },
   {
     id: 7,
-    title: "Bilberrry",
-    link:"https://bilberrry.com/",
-    image: "/recent_project7.png",
-    category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "PHP",
-      "jQuery",
-      "Yoast SEO",
-      "MySQL"
-    ],
+    title: "Hire vision",
+    link: "https://jovial-cuchufli-ac15e0.netlify.app/",
+    image: "/recent_project12.png",
+    category: "React JS",
+    technologies: ["React", "Redux", "Lenis", "GSAP", "Tailwind CSS"],
   },
   {
     id: 8,
-    title: "Skysys",
-    link:"https://myskysys.com/",
-    image: "/recent_project8.png",
-    category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "PHP",
-      "jQuery",
-      "MySQL"
-    ],
+    title: "Happiem",
+    link: "https://happiem.netlify.app/",
+    image: "/recent_project13.png",
+    category: "React JS",
+    technologies: ["React", "Redux", "JavaScript", "Tailwind CSS"],
   },
   {
     id: 9,
-    title: "Sacballet",
-    link:"https://www.sacballet.org/",
-    image: "/recent_project9.png",
-    category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "PHP",
-      "MySQL",
-      "Nginx"
-    ],
+    title: "Resolver",
+    link: "https://resolver-rouge.vercel.app/",
+    image: "/recent_project14.png",
+    category: "React JS",
+    technologies: ["React", "Redux", "JavaScript", "Tailwind CSS"],
   },
   {
     id: 10,
-    title: "WebXd",
-    link:"https://webxd.net/",
-    image: "/recent_project10.png",
-    category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "PHP",
-      "MySQL",
-      "Nginx"
-    ],
+    title: "Minimal Goods",
+    link: "https://gsapminimal.netlify.app/",
+    image: "/recent_project15.png",
+    category: "React JS",
+    technologies: ["React", "Redux", "GSAP", "Tailwind CSS"],
   },
   {
     id: 11,
-    title: "CargoCore",
-    link:"https://cargcore.netlify.app/",
-    image: "/recent_project11.png",
+    title: "Nothing-studio",
+    link: "https://nothing-studio.vercel.app/",
+    image: "/recent_project16.png",
     category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "Rechart",
-      "Tailwind CSS",
-      "GSAP"
-
-    ],
+    technologies: ["React", "Redux", "GSAP", "Tailwind CSS"],
   },
   {
     id: 12,
-    title: "Hire vision",
-    link:"https://jovial-cuchufli-ac15e0.netlify.app/",
-    image: "/recent_project12.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "Lenis",
-      "GSAP",
-      "Tailwind CSS"
-
-    ],
+    title: "Aero apps",
+    link: "https://aeroapps.io/",
+    image: "/recent_project21.png",
+    category: "Wordpress",
+    technologies: ["Wordpress", "GSAP", "MySQL", "PHP", "jQuery"],
   },
   {
     id: 13,
-    title: "Happiem",
-    link:"https://happiem.netlify.app/",
-    image: "/recent_project13.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS"
-
-    ],
-  },
-  {
-    id: 14,
-    title: "Resolver",
-    link:"https://resolver-rouge.vercel.app/",
-    image: "/recent_project14.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS"
-    ],
-  },
-  {
-    id: 15,
-    title: "Minimal Goods",
-    link:"https://gsapminimal.netlify.app/",
-    image: "/recent_project15.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "GSAP",
-      "Tailwind CSS"
-    ],
-  },
-  {
-    id: 16,
-    title: "Nothing-studio",
-    link:"https://nothing-studio.vercel.app/",
-    image: "/recent_project16.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "GSAP",
-      "Tailwind CSS"
-    ],
-  },
-  {
-    id: 17,
-    title: "Join.To.IT",
-    link:"https://jointoit.com/",
-    image: "/recent_project17.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "Three.js",
-      "Node.js",
-      "Nginx",
-    ],
-  },
-  {
-    id: 18,
-    title: "Mariacharles",
-    link:"https://www.mariacharles.co.uk/",
-    image: "/recent_project18.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "GSAP",
-      "Bootstrap",
-      
-    ],
-  },
-  {
-    id: 19,
-    title: "FIVELY",
-    link:"https://5ly.co/",
-    image: "/recent_project19.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "GSAP",
-      "Bootstrap",
-      
-    ],
-  },
-  {
-    id: 20,
-    title: "Haven",
-    link:"https://havenservicing.com/",
-    image: "/recent_project20.png",
-    category: "React JS",
-    technologies: [
-      "React",
-      "Redux",
-      "Gatsby",
-      "Tailwind CSS",
-      
-    ],
-  },
-  {
-    id: 21,
-    title: "Aero apps",
-    link:"https://aeroapps.io/",
-    image: "/recent_project21.png",
-    category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "GSAP",
-      "MySQL",
-      "PHP",
-      "jQuery"
-      
-    ],
-  },
-  {
-    id: 22,
     title: "Track force",
-    link:"https://trackforce.io/",
+    link: "https://trackforce.io/",
     image: "/recent_project22.png",
     category: "Wordpress",
-    technologies: [
-      "Wordpress",
-      "MySQL",
-      "PHP",
-      "jQuery"
-      
-    ],
+    technologies: ["Wordpress", "MySQL", "PHP", "jQuery"],
   },
 ];
 const FilterButton = ({ label, isActive, onClick }) => (
